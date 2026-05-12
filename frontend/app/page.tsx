@@ -19,7 +19,7 @@ export default function Home() {
     try {
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/analyze-text",
+        "https://guardianai-hedp.onrender.com/analyze-text",
         {
           text
         }
@@ -47,7 +47,7 @@ export default function Home() {
     try {
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/analyze-image",
+        "https://guardianai-hedp.onrender.com/analyze-image",
         formData,
         {
           headers: {
